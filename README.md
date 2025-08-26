@@ -88,7 +88,7 @@ PUT /api/products/{id} - Actualizar un producto (requiere name y price en el cue
 DELETE /api/products/{id} - Eliminar un producto
 
 
-structura de la Base de Datos
+Estructura de la Base de Datos
 Tabla: products
 Campo	Tipo	Descripción
 id	BIGINT	Identificador único del producto (PK)
