@@ -1,2 +1,2 @@
 # Prueba---Keppri
-Prueba Tecnicam Keppri
+Prueba Tecnica Keppri
