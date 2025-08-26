@@ -21,28 +21,27 @@ prueba-keppri/
 ├── app/
 │   ├── Http/
 │   │   └── Controllers/
-│   │       └── ProductController.php     # Controlador para gestionar productos
+│   │       └── ProductController.php      # Controlador para productos
 │   └── Models/
-│       └── Product.php                   # Modelo de datos para productos
+│       └── Product.php                    # Modelo de datos
 ├── database/
 │   └── migrations/
-│       └── 2023_08_26_000000_create_products_table.php  # Migración para la tabla de productos
+│       └── 2023_08_26_000000_create_products_table.php  # Migración
 ├── public/
-│   ├── index_simple.php                  # Punto de entrada principal simplificado
-│   ├── products_page.php                 # Vista HTML para la gestión de productos
-│   └── server.php                        # Manejador de rutas para el servidor PHP
+│   ├── index_simple.php                   # Punto de entrada simplificado
+│   ├── products_page.php                  # Vista HTML principal
+│   └── server.php                         # Manejador de rutas
 ├── resources/
 │   └── views/
-│       └── products.blade.php            # Vista Blade (para versión Laravel completa)
+│       └── products.blade.php             # Vista Blade (Laravel)
 ├── routes/
-│   └── api.php                           # Definiciones de rutas API
-├── .dockerignore                         # Archivos a ignorar en la construcción de Docker
-├── docker-compose.yml                    # Configuración de servicios Docker
-├── docker-entrypoint.sh                  # Script de inicialización para Docker
-├── Dockerfile                            # Instrucciones para construir la imagen Docker
-├── README.md                             # Este archivo
-├── run.php                               # Script para ejecutar la aplicación sin Docker
-└── setup.php                             # Script para inicializar la base de datos
+│   └── api.php                            # Definiciones de rutas API
+├── .dockerignore                          # Archivos ignorados en Docker
+├── docker-compose.yml                     # Configuración de servicios Docker
+├── docker-entrypoint.sh                   # Script de inicialización
+├── Dockerfile                             # Instrucciones para imagen Docker
+├── run.php                                # Script para ejecutar sin Docker
+└── setup.php                              # Script de inicialización de BD
 
 
 Requisitos
